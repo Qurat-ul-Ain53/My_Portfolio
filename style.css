@@ -24,6 +24,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    white-space: nowrap;
 }
 
 .ain {
@@ -32,8 +33,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
 }
-
+.navAbout {
+    white-space: nowrap;
+}
 .navBarLinks {
     display: flex;
     justify-content: space-between;
@@ -87,9 +91,10 @@ text-edge: cap; */
 }
 .Header{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     padding-top: 120px;
+    /* background-color:lightcoral; */
 }
 .headerMainDiv {
     display: flex;
@@ -159,8 +164,8 @@ font-family: Poppins;
 font-size: 21px;
 font-style: normal;
 font-weight: 400;
-/* line-height: normal;
-letter-spacing: 0.63px; */
+line-height: normal;
+letter-spacing: 0.63px;
 }
 .headerBtn {
     width: 188px;
@@ -191,4 +196,126 @@ justify-content: space-between;
 .SocialMedia1 {
     display: flex;
     justify-content: flex-end;
+    gap:25.03px;
+    padding-top: 36.76px;
+}
+.aboutMe {
+    display: flex;
+    gap: 33px;
+    padding-top: 69.52px;
+}
+.aboutHeading {
+    color: #000;
+
+/* H2 65 */
+font-family: Poppins;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.95px;
+}
+.aboutText {
+    color: #000;
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.63px;
+}
+.aboutSkills {
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.72px;
+}
+.techStack {
+    /* background-color: #FD6F00; */
+    display: flex;
+    flex-direction: column;
+    gap:140px
+}
+.techStackTextMain {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.techStackHeading {
+    color: #000;
+
+/* H2 65 */
+font-family: Poppins;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.95px;
+margin: 0;
+padding-top: 139px;
+}
+.techStackText {
+    color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.63px;
+padding-top: 49px;
+margin: 0;
+}
+.allSVGs {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+.svgsGroup1 {
+    display: flex;
+   justify-content:space-evenly;
+}
+.svgsGroup2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicesHeading {
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 65px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.95px;
+padding-top: 139px;
+margin: 0;
+}
+.servicesText {
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.63px;
+margin: 0;
+padding-top: 15px;
+}
+.servicesDiv2 {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 24px;
+    /* background-color: aqua; */
+    /* max-width: 1413px;
+    width: 100%; */
+}
+.boarderNBg {
+    border-radius: 14px;
+    background-color: #F8F8F8;
 }
