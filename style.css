@@ -43,7 +43,8 @@
 .navBarLinks {
     display: flex;
     justify-content: space-between;
-    gap: 14px
+    align-items: center;
+    gap: 40px
 }
 
 .btnDownloadCV {
@@ -90,12 +91,14 @@ text-edge: cap; */
 
 .logoNname {
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .Header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 120px;
     /* background-color:lightcoral; */
@@ -142,6 +145,8 @@ letter-spacing: 0.96px; */
     font-style: normal;
     font-weight: 700;
     margin: 0;
+    /* white-space: nowrap; */
+
     /* line-height: 120%; */
     /* letter-spacing: 3px; */
 }
@@ -153,8 +158,9 @@ letter-spacing: 0.96px; */
     font-style: normal;
     font-weight: 700;
     padding-left: 230px;
-    white-space: nowrap;
     margin: 0;
+    white-space: nowrap;
+
     /* line-height: 120%; 
     letter-spacing: 3px; */
 }
@@ -203,6 +209,7 @@ text-edge: cap; */
 
 .headerDiv1N2 {
     display: flex;
+    gap: 319px;
     justify-content: space-between;
 }
 
@@ -215,7 +222,8 @@ text-edge: cap; */
 
 .aboutMe {
     display: flex;
-    gap: 33px;
+    justify-content: space-between;
+    /* gap: 170px; */
     padding-top: 69.52px;
 }
 
@@ -235,13 +243,12 @@ text-edge: cap; */
 .aboutText {
     color: #000;
     font-family: Poppins;
-    font-size: 21px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.63px;
+    letter-spacing: 0.72px;
     margin: 0;
-
 }
 
 .aboutSkills {
@@ -584,3 +591,44 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.63px;
 }
+/* .aboutPic {
+    max-width: 500px;
+} */
+.aboutMeMainDiv {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    /* line-height: 70px */
+}
+/* MEDIA QUERIES */
+/* @media only screen and (min-width: 640px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(161, 205, 168);
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    body {
+      background-color: rgb(65, 87, 148);
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    body {
+      background-color: rgb(168, 112, 149);
+    }
+  }
+  @media only screen and (max-width: 1536px) {
+    body {
+      background-color: white;
+    }
+  }
+  @media only screen and (max-width: 1920px) {
+    body {
+      background-color: white;
+    }
+  } */
