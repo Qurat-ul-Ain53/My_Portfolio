@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
 }
 .navBar {
     display: flex;
@@ -642,7 +646,9 @@ letter-spacing: 0.63px;
     body {
 margin: 0;
     }
-
+    a {
+        text-decoration: none;
+    }
     
     .navBar {
         display: flex;
@@ -1322,12 +1328,17 @@ margin: 0;
     body {
 margin: 0;    }
   }
+  a {
+    text-decoration: none;
+}
   /* at 1024 */
   @media only screen and (min-width: 1024px) {
     body {
 margin: 0;
     }
-
+    a {
+        text-decoration: none;
+    }
     .navBar {
         display: flex;
         justify-content: center;
@@ -1956,7 +1967,9 @@ margin: 0;
     body {
 margin: 0;
     }
- 
+    a {
+        text-decoration: none;
+    }
       .navBar {
           display: flex;
           justify-content: space-between;
@@ -2608,12 +2621,17 @@ margin: 0;
     body {
 margin: 0;
     }
+    a {
+        text-decoration: none;
+    }
   }
   @media only screen and (min-width: 1920px) {
     body {
       margin: 0;
     }
-
+    a {
+        text-decoration: none;
+    }
     
     .navBar {
         display: flex;
