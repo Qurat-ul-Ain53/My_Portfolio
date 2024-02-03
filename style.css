@@ -4,6 +4,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #000;
 }
 .navBar {
     display: flex;
@@ -648,6 +649,7 @@ margin: 0;
     }
     a {
         text-decoration: none;
+        color: #000;
     }
     
     .navBar {
@@ -1330,6 +1332,7 @@ margin: 0;    }
   }
   a {
     text-decoration: none;
+    color: #000;
 }
   /* at 1024 */
   @media only screen and (min-width: 1024px) {
@@ -1338,6 +1341,7 @@ margin: 0;
     }
     a {
         text-decoration: none;
+        color: #000;
     }
     .navBar {
         display: flex;
@@ -1969,6 +1973,7 @@ margin: 0;
     }
     a {
         text-decoration: none;
+        color: #000;
     }
       .navBar {
           display: flex;
@@ -2623,6 +2628,7 @@ margin: 0;
     }
     a {
         text-decoration: none;
+        color: #000;
     }
   }
   @media only screen and (min-width: 1920px) {
@@ -2631,6 +2637,7 @@ margin: 0;
     }
     a {
         text-decoration: none;
+        color: #000;
     }
     
     .navBar {
