@@ -1,0 +1,12 @@
+.projectsDiv{
+    background-color: burlywood;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #b98137;
+}
+.projectsDescDiv{
+    /* background-color: burlywood; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #b98137;
+}

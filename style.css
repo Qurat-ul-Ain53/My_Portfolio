@@ -642,6 +642,19 @@ letter-spacing: 0.63px;
     /* line-height: 70px */
 
 }
+.seeAll{
+    background-color: #FD6F00;
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
 /* MEDIA QUERIES */
 @media only screen and (min-width: 640px) {
     body {
