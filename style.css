@@ -655,6 +655,61 @@ letter-spacing: 0.63px;
     border: none;
     border-radius: 5px;
 }
+.GDprojectsMainDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;   
+    padding-top: 96px;
+    /* background: #07cece; */
+    /* border: 3px solid #FD6F00; */
+    /* max-width: 50%; */
+}
+.GBproj01Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #000;
+    /* max-width: 373px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20); */
+}
+.Instaproj01Div {
+    /* max-width: 273px; */
+    /* border-radius: 20px; */
+    background: #370e0e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.InstaProj01Img{
+    /* max-width: 375px; */
+        width: 100%; 
+}
+.btnSeeMore{
+    background-color: #FD6F00;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+.btnSeeMore:hover{
+    background-color: #cc7533;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 640px) {
     body {
