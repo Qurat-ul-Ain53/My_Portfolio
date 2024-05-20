@@ -701,6 +701,7 @@ letter-spacing: 0.63px;
     border: none;
     padding: 20px;
     cursor: pointer;
+    text-align: center;
 }
 .btnSeeMore:hover{
     background-color: #cc7533;
