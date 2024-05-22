@@ -440,6 +440,20 @@ padding-top: 15px;
     padding-top: 70px;
     gap: 11px;
 }
+.FEDProjectsSubheading{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: #FD6F00;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    width: 100%;
+  
+}
+
 .myProjectsHeading {
     color: #1E1E1E;
     text-align: center;
@@ -456,7 +470,7 @@ letter-spacing: 1.95px;
     color: #000;
 text-align: center;
 margin: 0;
-
+padding-bottom: 11px;
 /* 21 Regular Lorem */
 font-family: Poppins;
 font-size: 21px;
@@ -541,6 +555,7 @@ a:hover{
     flex-direction: column;
     gap: 23px;   
     padding-top: 48px;
+    padding-bottom: 48px;
 }
 .projText {
     padding-left: 28px;
@@ -672,7 +687,7 @@ letter-spacing: 0.63px;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background: #704949;
+    background: #bf5606;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     /* max-width: 373px;
     border-radius: 20px;
@@ -702,26 +717,35 @@ letter-spacing: 0.63px;
         height: auto;
 }
 .btnSeeMore{
-    background-color: #FD6F00;
+    background-color: #cc7533;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    color: white;
-    font-size: large;
-    font-weight: 600;
     border: none;
     padding: 20px;
     cursor: pointer;
     text-align: center;
+    color: white;
+text-align: center;
+margin: 0;
+/* padding-bottom: 11px; */
+/* 21 Regular Lorem */
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.63px;
+border-radius: 50px;
 }
 .btnSeeMore:hover{
-    background-color: #cc7533;
+    background-color: #0A6847;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     color: white;
     font-size: large;
-    font-weight: 600;
+    font-weight: 400;
     border: none;
-    border-radius: 50px;
+    border-radius: 0px;
     padding: 20px;
     cursor: pointer;
 }
